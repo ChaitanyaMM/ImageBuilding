@@ -35,6 +35,11 @@ import org.thymeleaf.context.IContext;
 	
 	
 	private String vmpathSample ="/WEB-INF/txt/sample.txt";
+	
+	
+	
+	
+
  
 
     public void setTextTemplateEngine(TemplateEngine textTemplateEngine) {
@@ -55,6 +60,8 @@ import org.thymeleaf.context.IContext;
                   Context ctx = new Context( );
                   String text = "hai this is sample testing for image Building trying out themeleaf";
                   System.out.println("textTemplateEngine<><><><><"+textTemplateEngine);
+				  System.out.println("textTemplateEngine<><><><><"+textTemplateEngine);
+
 //                  TemplateEngine textTemplateEngine =new TemplateEngine();
 //                  System.out.println("textTemplateEngine<><><><><"+textTemplateEngine);
 
