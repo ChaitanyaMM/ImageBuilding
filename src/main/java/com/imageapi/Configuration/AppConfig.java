@@ -37,6 +37,9 @@ import com.imageapi.Util.ArrayUtil;
 @ComponentScan(basePackages ="com.imageapi")
 @PropertySource(value = { "classpath:application.properties" })
 public class AppConfig  extends WebMvcConfigurerAdapter implements ApplicationContextAware{
+	
+	
+	
 	@Autowired
     private Environment environment;
 	private ApplicationContext applicationContext;
